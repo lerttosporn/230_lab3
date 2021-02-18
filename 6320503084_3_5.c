@@ -21,7 +21,7 @@ int main()
 
         if(ar[0]==ar[1]||ar[0]==ar[2]||ar[1]==ar[2])
     {
-          printf("%d a not Lucky Number.",ln);
+          printf("%d is a not Lucky Number.",ln);
     }
     else
     {
