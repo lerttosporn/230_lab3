@@ -8,12 +8,16 @@ int main()
     {
         scanf("%d %d",&p[i],&a[i]);
     }
+
     for(i=0; i<n; i++)
     {
-        if(p[i]==p[i+1])
+        for(j=0;j<n;j++)
+       {
+           if(p[i]==p[i+1])
         {
             a[i]=a[i]+a[i+1];
         }
+       }
         if(h<a[i])
         {
             h=a[i];
