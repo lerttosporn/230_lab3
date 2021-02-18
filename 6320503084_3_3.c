@@ -10,14 +10,14 @@ int main()
             printf("%d\n",j);
             n=n/j;
         }
-        else if(n!=0)
+        else if(n==1)
         {
-            j++;
-        }
-        if(n==0)
-        {
-            printf("%d",n);
+           printf("%d",n-1);
             break;
+        }
+        else
+        {
+            j++
         }
     }
 
