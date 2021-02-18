@@ -18,7 +18,6 @@ int main()
         }
             j++;
     }
-
         if(ar[0]==ar[1]||ar[0]==ar[2]||ar[1]==ar[2])
     {
           printf("%d is a not Lucky Number.",ln);
@@ -27,7 +26,6 @@ int main()
     {
         printf("%d is a Lucky Number.",ln);
     }
-
     return 0;
 }
 
