@@ -10,12 +10,13 @@ int main()
             printf("%d\n",j);
             n=n/j;
         }
-        else
+        else if(n!=0)
         {
             j++;
         }
         if(n==0)
         {
+            printf("%d",n);
             break;
         }
     }
