@@ -17,7 +17,7 @@ int main()
         }
         else
         {
-            j++
+            j++;
         }
     }
 
