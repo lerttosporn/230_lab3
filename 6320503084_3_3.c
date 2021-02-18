@@ -15,9 +15,10 @@ int main()
                 j++;
             }
         if(n==0)
-        {
+        {printf("%d",n);
             break;
         }
+        printf("\n");
     }
 
     return 0;
